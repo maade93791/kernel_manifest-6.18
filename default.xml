@@ -51,6 +51,7 @@
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external" />
 
   <!-- dependencies used to build toolchain from sources -->
+  <project path="external/dtc" name="platform/external/dtc" groups="ddk"/>
   <project path="external/kmod" name="platform/external/kmod" groups="ddk"/>
   <project path="external/lz4" name="platform/external/lz4" groups="ddk"/>
   <project path="external/pigz" name="platform/external/pigz" groups="ddk"/>
@@ -68,7 +69,6 @@
   <project path="external/avb" name="platform/external/avb" />
   <project path="external/boringssl" name="platform/external/boringssl" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
-  <project path="external/dtc" name="platform/external/dtc" />
   <project path="external/libufdt" name="platform/system/libufdt" />
   <project path="external/open-dice" name="platform/external/open-dice" />
   <project path="external/elfutils" name="platform/external/elfutils" />
