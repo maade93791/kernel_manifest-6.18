@@ -62,7 +62,6 @@
 
   <!-- dependencies for GBL -->
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline"/>
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="gbl-mainline"/>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware"/>
   <project path="external/avb" name="platform/external/avb"/>
   <project path="external/boringssl" name="platform/external/boringssl"/>
@@ -75,5 +74,4 @@
   <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
   <project path="external/rust/crates/zune-inflate" name="platform/external/rust/crates/zune-inflate"/>
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-mainline"/>
-  <project path="system/core" name="platform/system/core"/>
 </manifest>
