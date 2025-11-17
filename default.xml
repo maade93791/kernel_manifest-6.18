@@ -55,6 +55,7 @@
   <project path="external/toybox" name="platform/external/toybox" groups="ddk"/>
   <project path="external/zlib" name="platform/external/zlib" groups="ddk"/>
   <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
+  <project path="external/zstd" name="platform/external/zstd" groups="ddk"/>
 
   <!-- dependencies for GBL -->
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="gbl-mainline"/>
