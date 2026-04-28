@@ -3,13 +3,13 @@
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
   <default revision="main-kernel-2026" remote="aosp" sync-j="4"/>
 
-  <superproject name="kernel/superproject" remote="aosp" revision="common-android17-6.18"/>
+  <superproject name="kernel/superproject" remote="aosp" revision="common-android17-6.18-lts"/>
 
   <project path="build/kernel" name="kernel/build" groups="ddk">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel"/>
   </project>
-  <project path="common" name="kernel/common" revision="android17-6.18"/>
+  <project path="common" name="kernel/common" revision="android17-6.18-lts"/>
   <project path="common-modules/wonder" name="kernel/common-modules/wonder" revision="android17-6.18"/>
   <project path="common-modules/trusty" name="kernel/common-modules/trusty"/>
   <project path="common-modules/virtio-media" name="platform/external/virtio-media"/>
