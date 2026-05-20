@@ -71,7 +71,6 @@
   <project path="external/googletest" name="platform/external/googletest"/>
   <project path="external/mtools" name="platform/external/mtools"/>
   <project path="external/rust/android-crates-io" name="platform/external/rust/android-crates-io"/>
-  <project path="external/rust/crates/smoltcp" name="platform/external/rust/crates/smoltcp"/>
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" clone-depth="1" revision="gbl-android17"/>
   <project path="prebuilts/vmm" name="device/google/cuttlefish_vmm" clone-depth="1" />
 
